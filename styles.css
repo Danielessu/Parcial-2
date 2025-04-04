@@ -189,6 +189,12 @@ header {
     backdrop-filter: blur(0.3125rem);
 }
 
+h4{
+    font-family: Poppins;
+    font-size: 1.5em;
+    color: #f1e1c1;
+}
+
 .categoria {
     background: rgba(51, 33, 22, 0.9);
     color: white;
@@ -791,7 +797,7 @@ button:hover {
     background-color: rgba(26, 26, 26, 0.9);
     padding: 2rem;
     border-radius: 0.625rem;
-    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0.5rem 1.5rem rgba(126, 126, 126, 0.8);
     z-index: 2000;
     max-width: 25rem;
     width: 90%;
@@ -814,6 +820,7 @@ button:hover {
     display: block;
     margin: 0.5rem 0 0.25rem;
     font-weight: bold;
+    font-family: poppins;
 }
 
 #cliente-form input {
@@ -823,6 +830,7 @@ button:hover {
     border: none;
     background: rgba(255, 255, 255, 0.1);
     color: white;
+    font-family: poppins;
 }
 
 #cliente-form button {
@@ -833,9 +841,10 @@ button:hover {
     border-radius: 0.625rem;
     cursor: pointer;
     margin-top: 1rem;
-    width: 48%;
+    width: 100%;
     font-weight: bold;
     transition: background 0.3s ease, transform 0.2s ease;
+    font-family: poppins;
 }
 
 #cliente-form button:hover {
